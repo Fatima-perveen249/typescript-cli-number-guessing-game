@@ -10,6 +10,6 @@ const answers = await inquirer.prompt([
     },
 ]);
 if(answers.userGuessNum === random_number){
-    console.log("You Won")
+    console.log("Congratulations, You Won the game")
 }else{
     console.log("You Lost")}
